@@ -28,7 +28,7 @@ mongoose.connect(MONGODB_URI, {
 });
 
 const corsOptions = {
-  origin: '*',
+  origin: 'https://maxgudinovich.github.io',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
